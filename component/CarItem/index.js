@@ -4,9 +4,8 @@ import Buttom from "../Buttom";
 
 import {StyleSheet, View, Text, ImageBackground} from "react-native";
 import {touchProps} from "react-native-web/dist/modules/forwardedProps";
-
 const CarItem = (props)=>{
-    const {name,tagline,image,taglineCTA} = props;
+    const {name,tagline,image,taglineCTA} = props.cars;
 
     return(
         <View style={styles.carContainer}>
