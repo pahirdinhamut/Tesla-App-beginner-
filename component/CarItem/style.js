@@ -14,6 +14,9 @@ const styles = StyleSheet.create({
         width:'100%',
         alignItems:'center'
     },
+    textCTA:{
+        textDecorationLine:'underline',
+    },
     title:{
         fontSize:40,
         fontWeight:'500'
@@ -27,6 +30,11 @@ const styles = StyleSheet.create({
         height:'100%',
         resizeMode:'cover',
         position:"absolute"
+    },
+    buttomContainer:{
+        position:'absolute',
+        bottom:50,
+        width:'100%'
     }
 
 
